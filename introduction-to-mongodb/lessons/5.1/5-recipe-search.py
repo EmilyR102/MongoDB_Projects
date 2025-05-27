@@ -23,7 +23,7 @@ print("We found the following recipes:\n")
 query = {
     "title": {
         "$regex": search,
-        "$options": "i"
+        "$options": "i" #case insensitive
     }
 }
 
